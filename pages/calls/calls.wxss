@@ -1,0 +1,60 @@
+/* pages/calls/calls.wxss */
+.calls{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F5F5F5;
+}
+.area-menu{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-top: 8%;
+  margin-bottom: 13%;
+}
+.area-menu .area-menu-title{
+  width: 50%;
+  font-size: 1rem;
+  color: #A8A8A8;
+}
+.area-menu .area-menu-active{
+  width: 45%;
+  font-size: 1rem;
+  color: #454545;
+  text-align: right;
+}
+.area-menu .area-menu-image{
+  width: 5%;
+  text-align: right;
+  margin-top: 5px;
+}
+.area-menu .area-menu-image image{
+  width: 22px;
+  height: 22px;
+}
+.prompt{
+  font-size: 14px;
+  color: #454545;
+  text-align: center;
+}
+.key{
+  margin-top: 8%;
+  text-align: center;
+  border-radius: 50%;
+}
+.key image{
+  width: 9rem;
+  height: 9rem;
+}
+.btn{
+  width: 90%;
+  font-size: 16px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 12%;
+  margin-bottom: 20px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #4587F7;
+}

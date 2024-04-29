@@ -1,0 +1,36 @@
+<!--pages/bluetooth/bluetooth .wxml-->
+<view class="bluetooth-container">
+  <view class="bluetooth-init" wx:if="{{ !showExist }}">
+    <view class="content">
+      <view class="baner"><image src='../assets/images/baner_1.png'></image></view>
+      <view class='desc-list'>
+        <view class='text'>
+          <text class='num'>1</text>
+          <text>请打开蓝牙，点击搜索蓝牙设备；</text>
+        </view>
+        <view class='text'>
+          <text class='num'>2</text>
+          <text>选择相应楼层乘梯；</text>
+        </view>
+      </view>
+      <button class='search' bindtap="openBluetoothAdapter">搜索蓝牙设备</button>
+    </view>
+  </view>
+  <view class="bluetooth-data" wx:if="{{ showExist }}">
+    <view class="timer">{{ time }}</view>
+    <view class="top">
+      <view class="top-label">梯区:</view>
+      <view class="top-name">{{ elename }}</view>
+    </view>
+    <view class="title">请60s选择相应的楼层</view>
+    <view class="floor-list">
+      <view class="prompt" wx:if="{{ showPrompt }}">
+        <image src="../assets/images/img.png"></image>
+        <text class="text">{{ prompt }}</text>
+      </view>
+      <view wx:for="{{floors}}" wx:key="id" bindtap='bindFloorPitch' data-id="{{ item.id }}" data-au="{{ item.au }}" class="item {{ item.au == 0 ? 'disabled': (tabIndex == item.id ? 'active':'normal')}}" >{{item.name}}</view>
+    </view>
+    <button class='reset' bindtap="bindReset">重新选层</button>
+    <button class='reload' bindtap="openBluetoothAdapter">重新搜索蓝牙设备</button>
+  </view>
+</view>

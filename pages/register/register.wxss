@@ -1,0 +1,58 @@
+/* pages/register/register.wxss */
+.register{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F5F5F5;
+}
+.input-list{
+  width: 100%;
+  background-color: #ffffff;
+}
+.input-list .item{
+  font-size: 14px; 
+  color: #3E3E3E;
+  padding: 12px 0px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid #F2F2F2;
+}
+.input-list .item:last-child{
+  border-bottom: 0px;
+}
+.input-list .item .icon{
+  width: 25px;
+  height: 25px;
+  margin: 0px 5px;
+}
+.verify-btn{
+  width: 90px;
+  font-size: 12px;
+  position: absolute;
+  top: 8px;
+  right: 3%;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px solid #DDDCDB;
+}
+.normal{
+  color: #666;
+  background-color: white;
+}
+.active{
+  color: #CDCCD4;
+  background-color: #F6F6F6;
+}
+.activate-btn{
+  width: 90%;
+  font-size: 16px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 25px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #4587F7;
+}

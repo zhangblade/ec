@@ -1,0 +1,177 @@
+/* pages/bluetooth/bluetooth .wxss */
+.bluetooth-container{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F5F5F5;
+}
+.bluetooth-init{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bluetooth-init .content{
+  width: 100%;
+}
+.bluetooth-init .baner{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.bluetooth-init .baner image{
+  width: 140px;
+  height: 170px;
+}
+.bluetooth-init .desc-list{
+  width: 100%;
+}
+.bluetooth-init .desc-list .text{
+  width: 240px; 
+  margin: 0 auto;
+  font-size: 14px;
+  color: #7E7E7E;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bluetooth-init .desc-list .text .num{
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  color: white;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #4587F7;
+}
+.bluetooth-init .search{
+  width: 90%;
+  font-size: 14px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 100px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #4587F7;
+}
+.bluetooth-data{
+  width: 100%;
+}
+.bluetooth-data .timer{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+.bluetooth-data .top{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-top: 10%;
+  margin-bottom: 13%;
+}
+.bluetooth-data .top .top-label{
+  width: 13%;
+  font-size: 1rem;
+  color: #A8A8A8;
+}
+.bluetooth-data .top .top-name{
+  width: 87%;
+  font-size: 1rem;
+  color: #454545;
+  text-align: left;
+}
+.bluetooth-data .title{
+  font-size: 14px;
+  color: #454545;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+.bluetooth-data .floor-list{
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.bluetooth-data .floor-list .item{
+  width: 5rem;
+  height: 5rem;
+  flex: 0 0 auto;
+  margin: 10px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.normal{
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #666666;
+}
+.disabled{
+  border: 1px solid #E7E7E7;
+  background-color: #E7E7E7;
+  color: #A5A5A5;
+}
+.active{
+  color: #4587F7;
+  border: 1px solid #4587F7;
+  background-color: #ffffff;
+  box-shadow:1px 0px 16px #4587F7;
+}
+.bluetooth-data .prompt{
+  width: 100%;
+  text-align: center;
+}
+.bluetooth-data .prompt image{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.bluetooth-data .prompt .text{
+  display: block;
+  font-size: 14px;
+  color: #D2D2D2;
+}
+.bluetooth-data .reset{
+  width: 90%;
+  font-size: 16px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #4587F7;
+}
+.bluetooth-data .reload{
+  width: 90%;
+  font-size: 16px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #4587F7;
+}

@@ -1,0 +1,19 @@
+<!--pages/floor/floor.wxml-->
+<view class="floor-container">
+  <view class="content">
+    <view class="timer">{{ time }}</view>
+    <view class="top">
+      <view class="top-label">梯区:</view>
+      <view class="top-name">{{ elename }}</view>
+    </view>
+    <view class="title">请60s选择相应的楼层</view>
+    <view class="floor-list">
+      <view class="prompt" wx:if="{{ showPrompt }}">
+        <image src="../assets/images/img.png"></image>
+        <text class="text">{{ promptText }}</text>
+      </view>
+      <view class="item {{ item.au == 0 ? 'disabled': (tabIndex == item.id ? 'active':'normal')}} " wx:for="{{floors}}" wx:key="id" bindtap='bindActive' data-id="{{ item.id }}" data-au="{{ item.au }}">{{item.name}}</view>
+    </view>
+    <view class='reset' bindtap="bindReset">重新选层</view>
+  </view>
+</view>

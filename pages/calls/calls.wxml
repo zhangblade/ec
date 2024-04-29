@@ -1,0 +1,18 @@
+<!--pages/calls/calls.wxml-->
+<view class="calls">
+  <view class="calls-content">
+    <view class="area-menu">
+      <view class="area-menu-title">梯区</view>
+      <view class="area-menu-active">{{ id }}</view>
+      <view class="area-menu-image"><image src="../assets/images/right.png" /></view>
+    </view>
+    <view class="prompt">请您选择上行或下行</view>
+    <view class="key first" bindtap="bindKey" data-key="0">
+      <image src='{{key == 0 ? "../assets/images/up_pre.png":"../assets/images/up_nor.png"}}'/>
+    </view>
+    <view class="key" bindtap="bindKey" data-key="1">
+      <image src='{{key == 1 ? "../assets/images/down_pre.png":"../assets/images/down_nor.png"}}'/>
+    </view>
+    <view class='btn' bindtap="bindSubmit">选层乘梯</view>
+  </view>
+</view>

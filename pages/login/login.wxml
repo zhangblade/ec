@@ -1,0 +1,11 @@
+<!--pages/login/login.wxml-->
+<view class="login">
+  <view class="content">
+    <view class="head-img"><image src="../assets/images/user.png"></image></view>
+    <view class="status">未授权</view>
+    <view class="prompt">授权完善你的昵称、头像等公开信息</view>
+    <view class="prompt">获取更好的体验</view>
+    <button class="submit" open-type="getUserInfo" bindgetuserinfo="getUserInfo">去授权</button>
+  </view>
+</view>
+

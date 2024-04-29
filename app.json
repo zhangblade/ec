@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/bluetooth/bluetooth",
+    "pages/index/index",
+    "pages/calls/calls",
+    "pages/floor/floor",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/register/register"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F5F5F5",
+    "navigationBarTitleText": "绿色零接触乘梯",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#4587F7",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/bluetooth/bluetooth",
+        "text": "蓝牙定位",
+        "iconPath": "pages/assets/images/bluetooth_nor.png",
+        "selectedIconPath": "pages/assets/images/bluetooth_pre.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "扫码乘梯",
+        "iconPath": "pages/assets/images/elevator_nor.png",
+        "selectedIconPath": "pages/assets/images/elevator_pre.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "pages/assets/images/my_nor.png",
+        "selectedIconPath": "pages/assets/images/my_pre.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

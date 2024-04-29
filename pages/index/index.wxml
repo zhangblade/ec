@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='content'>
+    <view class="img"><image src='../assets/images/baner.png'></image></view>
+    <view class='desc_list'>
+      <view class='text'>
+        <text class='num'>1</text>
+        <text class='desc'>梯厅扫码，选择上行或下行呼梯；</text>
+      </view>
+      <view class='text'>
+        <text class='num'>2</text>
+        <text class='desc'>梯内扫码，选择相应楼层乘梯；</text>
+      </view>
+    </view>
+    <button class='confirm' bindtap="getScancode">扫码乘梯</button>
+  </view>
+</view>

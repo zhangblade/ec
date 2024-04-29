@@ -1,0 +1,19 @@
+<!--pages/register/register.wxml-->
+<view class="register">
+  <view class="input-list">
+    <view class="item">
+      <image class="icon" src="../assets/images/phonenumber.png" />
+      <input type="text" maxlength="11" placeholder="手机号码" bindinput="getInputPhoneNumber" value="{{ phoneNumber }}"/>
+      <view class="verify-btn {{ isSend ? 'active':'normal'}}" bindtap="bindVerify">{{ isSend ? second : text }}</view>
+    </view>
+    <view class="item">
+      <image class="icon" src="../assets/images/verifycode.png" />
+      <input type="text" placeholder="验证码" bindinput="getInputVerify"/>
+    </view>
+    <view class="item">
+      <image class="icon" src="../assets/images/password.png" />
+      <input type="password" placeholder="设置密码" bindinput="getInputPassword" />
+    </view>
+  </view>
+  <view class="activate-btn" bindtap="bindActivateLogin">激活登录</view>
+</view>

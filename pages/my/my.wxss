@@ -1,0 +1,79 @@
+/* pages/my/my.wxss */
+.my{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F5F5F5;
+}
+.my .logout{
+  width: 100%;
+  padding: 50px 0px 30px 0px;
+  background-color: #ffffff;
+}
+.my .logout .head-img{
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #F2F2F2;
+}
+.my .logout .head-img image{
+  width: 2rem;
+  height: 2rem;
+}
+.my .logout .prompt{
+  width: 100%;
+  font-size: 14px;
+  color: #646464;
+  text-align: center;
+  margin: 15px 0px;
+}
+.my .logout .login_btn{
+  width: 50%;
+  font-size: 14px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #4587F7;
+}
+.my .login{
+  width: 100%;
+}
+.my .login .user{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0px;
+  background-color: #ffffff;
+}
+.my .login .head-img{
+  margin: 0px 10px 0px 20px;
+}
+.my .login .head-img image{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.my .login .nickname{
+  font-size: 16px;
+  color: #111111;
+}
+.my .login .phonenumber{
+  font-size: 13px;
+  color: #818181;
+  margin-left: 5px;
+}
+.my .login .logout-btn{
+  width: 90%;
+  font-size: 16px;
+  color: #707070;
+  margin: 0 auto;
+  margin-top: 25px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #CACACA;
+  background-color: #ffffff;
+}
